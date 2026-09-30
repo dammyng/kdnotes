@@ -2,7 +2,7 @@
 
 ## Project
 
-Patrika is a notebook-inspired personal publishing theme built with Astro.
+KDnotes is a notebook-inspired personal publishing theme built with Astro.
 
 It is not a blog theme.
 
@@ -30,7 +30,7 @@ Never introduce UI that competes with the writing.
 
 ## Editorial, not Application
 
-Patrika should feel edited rather than engineered.
+KDnotes should feel edited rather than engineered.
 Avoid dashboards, cards with heavy chrome, widgets, badges, statistics or application-like interfaces.
 Prefer layouts inspired by books and magazines.
 

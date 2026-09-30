@@ -1,5 +1,5 @@
 /**
- * Sätteri MDAST plugins for Patrika.
+ * Sätteri MDAST plugins for KDnotes.
  *
  * wikilinkResolver — converts wikilink hrefs (raw title, URL-encoded) to /notes/slug paths.
  * directiveToHtml  — converts :::aside and :::annotation container directives to HTML divs.
@@ -58,16 +58,16 @@ export const wikilinkResolver = {
 function extractHtml(node: any): string {
   if (!node) return '';
   switch (node.type) {
-    case 'text':       return escapeHtml(node.value ?? '');
-    case 'emphasis':   return `<em>${(node.children ?? []).map(extractHtml).join('')}</em>`;
-    case 'strong':     return `<strong>${(node.children ?? []).map(extractHtml).join('')}</strong>`;
+    case 'text': return escapeHtml(node.value ?? '');
+    case 'emphasis': return `<em>${(node.children ?? []).map(extractHtml).join('')}</em>`;
+    case 'strong': return `<strong>${(node.children ?? []).map(extractHtml).join('')}</strong>`;
     case 'inlineCode': return `<code>${escapeHtml(node.value ?? '')}</code>`;
     case 'link': {
       const href = escapeAttr(node.url ?? '');
       const text = (node.children ?? []).map(extractHtml).join('');
       return `<a href="${href}">${text}</a>`;
     }
-    case 'paragraph':  return `<p>${(node.children ?? []).map(extractHtml).join('')}</p>`;
+    case 'paragraph': return `<p>${(node.children ?? []).map(extractHtml).join('')}</p>`;
     default:
       if (Array.isArray(node.children)) return node.children.map(extractHtml).join('');
       return '';

@@ -1,4 +1,4 @@
-# Patrika
+# KDnotes
 
 A notebook-inspired personal publishing theme built with Astro. Not a blog
 theme — it draws on commonplace books, field notebooks, literary journals,
@@ -42,13 +42,13 @@ Then:
 
 ## Commands
 
-| Command        | Action                                                                 |
-| :------------- | :---------------------------------------------------------------------|
-| `pnpm install` | Install dependencies                                                  |
-| `pnpm dev`     | Start the dev server at `localhost:4321`                               |
+| Command        | Action                                                                              |
+| :------------- | :---------------------------------------------------------------------------------- |
+| `pnpm install` | Install dependencies                                                                |
+| `pnpm dev`     | Start the dev server at `localhost:4321`                                            |
 | `pnpm build`   | Build to `./dist/`, then build the Pagefind search index and copy it into `public/` |
-| `pnpm preview` | Preview the production build locally                                   |
-| `pnpm astro …` | Run any Astro CLI command (`astro check`, `astro add`, …)              |
+| `pnpm preview` | Preview the production build locally                                                |
+| `pnpm astro …` | Run any Astro CLI command (`astro check`, `astro add`, …)                           |
 
 ## Customization
 
@@ -58,6 +58,7 @@ Then:
   `config.yaml`; each entry turns a `meta.<key>` frontmatter field into a
   browsable index at `/browse/<slug>`.
 
-## Learn more
+## Template by 
 
-[Astro documentation](https://docs.astro.build)
+[Patrika](https://github.com/thelocalhoststudio/patrika) — a field notebook template built on Astro 7 and Tailwind CSS v4. Content lives in Obsidian and is published from there.
+

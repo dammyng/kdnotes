@@ -16,7 +16,7 @@ Slowly working through a book on attention and craft, a chapter at a time. Also 
 
 ## Making
 
-Patrika, this notebook. Trying to find a rhythm of writing that feels more like keeping notes and less like publishing.
+KDnotes, this notebook. Trying to find a rhythm of writing that feels more like keeping notes and less like publishing.
 
 ## Elsewhere
 

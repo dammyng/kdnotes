@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────────────────────────────────────
-# Patrika — Site Configuration
+# KDnotes — Site Configuration
 # ─────────────────────────────────────────────────────────────────────────────
 # This file lives alongside your content in your Obsidian vault.
 # Only include the fields you want to override.
@@ -8,70 +8,70 @@
 
 # ── Site identity ─────────────────────────────────────────────────────────────
 - id: config
-  title: Patrika
+  title: KDnotes
   description: A field notebook, kept in the open
-  url: https://patrika.pages.dev  # ← replace with your domain
+  url: https://kdnotes.com
   locale: en
 
   # ── Author ────────────────────────────────────────────────────────────────────
 
   author:
-    name: The Localhost Studio           # ← replace
-    bio: A short line about who you are and what you write about.
-    url: https://amitkul.in  # ← replace
+    name: KD
+    bio: Mostly nothing or about nothing.
+    url: https://kdnotes.com
     # avatar: /images/avatar.jpg
 
-  # ── Assets ───────────────────────────────────────────────────────────────────
-  # Uncomment to use a logo or custom OG image.
-  # Paths are relative to /public
+    # ── Assets ───────────────────────────────────────────────────────────────────
+    # Uncomment to use a logo or custom OG image.
+    # Paths are relative to /public
 
-  # logo: /images/logo.svg
-  # ogImage: /images/og-default.jpg
+    # logo: /images/logo.svg
+    # ogImage: /images/og-default.jpg
 
-  # ── Navigation ────────────────────────────────────────────────────────────────
-  # Top navigation links. Order here is order in the nav bar.
+    # ── Navigation ────────────────────────────────────────────────────────────────
+    # Top navigation links. Order here is order in the nav bar.
 
   navigation:
-    - title: Articles
-      url: /posts
-    - title: Notes
-      url: /notes
-    - title: Archive
-      url: /archive
-    - title: About
-      url: /about
+  - title: Articles
+    url: /posts
+  - title: Notes
+    url: /notes
+  - title: Archive
+    url: /archive
+  - title: About
+    url: /about
 
   # ── Footer links ──────────────────────────────────────────────────────────────
 
   footerLinks:
-    - title: Now
-      url: /now
-    - title: Colophon
-      url: /colophon
-    - title: RSS
-      url: /rss.xml
+  - title: Now
+    url: /now
+  - title: Patrika
+    url: https://github.com/thelocalhoststudio/patrika
+  - title: RSS
+    url: /rss.xml
 
   # ── Social ────────────────────────────────────────────────────────────────────
   # Supported icons: github, mastodon, twitter, rss, email
 
   social:
-    - title: GitHub
-      url: https://github.com/thelocalhoststudio
-      icon: github
-    # - title: Mastodon
-    #   url: https://mastodon.social/@username  # ← replace or remove
-    #   icon: mastodon
-    - title: RSS
-      url: /rss.xml
-      icon: rss
+  - title: GitHub
+    url: https://github.com/dammyng
+    icon: github
+  # - title: Mastodon
+  #   url: https://mastodon.social/@username  # ← replace or remove
+  #   icon: mastodon
+  - title: RSS
+    url: /rss.xml
+    icon: rss
 
   # ── Content display ───────────────────────────────────────────────────────────
 
   # Shown as the opening line on the garden homepage
-  heroText: Notes, observations, and the occasional long read.  # ← replace
+  heroText: Mostly nothing, or about nothing.
 
   # Shown in the footer (optional — remove the line to hide)
-  footerCredits: ""  # ← replace with your tagline, or delete this line
+  footerCredits: "" # ← replace with your tagline, or delete this line
 
   # Number of posts shown per archive page
   postsPerPage: 8
@@ -93,9 +93,9 @@
   browse:
     years: true
     indexes:
-      - key: place
-        title: Places
-        slug: places
-      - key: trip
-        title: Trips
-        slug: trips
+    - key: place
+      title: Places
+      slug: places
+    - key: trip
+      title: Trips
+      slug: trips
